@@ -16,7 +16,7 @@ public class WaWaApplication extends Application {
     public void onCreate() {
         super.onCreate();
         AnyRTCRTCPEngine.Inst().initEngineWithAnyrtcInfo(getApplicationContext(),"", "", "", "");
-        AnyRTCWaWaClient.getInstance().setAnyRTCInfo("","","","");
+        AnyRTCWaWaClient.getInstance().initEngineWithAnyRTCInfo("","","","");
         SoundPlayUtils.init(this);
     }
 

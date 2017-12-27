@@ -355,7 +355,7 @@ public class WaWaActivity extends BaseActivity implements WaWaServerListener {
 
 
     @Override
-    public void onBookMemberUpdata(final String strBookMemberData) {
+    public void onBookMemberUpdate(final String strBookMemberData) {
         WaWaActivity.this.runOnUiThread(new Runnable() {
             @Override
             public void run() {
@@ -375,7 +375,7 @@ public class WaWaActivity extends BaseActivity implements WaWaServerListener {
     }
 
     @Override
-    public void onRoomMemberUpdata(final String strMemberNum) {
+    public void onRoomMemberUpdate(final String strMemberNum) {
         WaWaActivity.this.runOnUiThread(new Runnable() {
             @Override
             public void run() {

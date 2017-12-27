@@ -31,6 +31,7 @@ apply plugin: 'android-apt'
 dependencies {
     compile fileTree(include: ['*.jar'], dir: 'libs')
     compile(name: 'rtcp_kit-release', ext: 'aar')
+
     compile(name: 'anyrtcwawaclient-release',ext:'aar')
     compile 'com.android.support:appcompat-v7:25.3.1'
     compile 'com.android.support:recyclerview-v7:25.3.1'

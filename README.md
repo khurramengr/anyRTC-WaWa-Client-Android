@@ -77,7 +77,7 @@ dependencies {
 
 
 ## IOS版娃娃机Demo
-[anyRTC-WaWa-Client-Android](https://github.com/AnyRTC/anyRTC-WaWa-Client-iOS)
+[anyRTC-WaWa-Client-IOS](https://github.com/AnyRTC/anyRTC-WaWa-Client-iOS)
 ## Web 版娃娃机Demo
 [anyRTC-WaWa-Client-Web](https://github.com/AnyRTC/anyRTC-WaWa-Client-Web)
 
